@@ -1,0 +1,99 @@
+//base colours and fonts
+$font: Open sans, sans-serif;
+$base-color: #4A4A4A;
+$letter-space-default: 1px;
+$border-radius: 5px;
+$border-width: 2px;
+$border-style: solid;
+@function calculateRem($size) {
+	$remSize: $size / 16px;
+	@return #{$remSize}rem;
+}
+
+@mixin fontSize($size) {
+	font-size: $size; //Fallback in px
+	font-size: calculateRem($size);
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #f1f1f1;
+	line-height: 1.5;
+	color: $base-color;
+	@include fontSize(16px);
+	font-family: $font;
+}
+
+h1,
+h2,
+h3 {
+	margin: 0;
+	letter-spacing: $letter-space-default;
+	color: $base-color;
+}
+
+h1 {
+	line-height: 2.25rem;
+	margin-top: 0.75rem;
+}
+
+@media screen and (min-width:768px) {
+	h1 {
+		@include fontSize(26px);
+	}
+	h3 {
+		@include fontSize(18px);
+	}
+}
+
+@media screen and (min-width:999px) {
+	h1 {
+		@include fontSize(29px);
+	}
+	h3 {
+		@include fontSize(18px);
+	}
+}
+
+@media screen and (min-width:1200px) {
+	h1 {
+		@include fontSize(37px);
+		line-height: 100%;
+	}
+	h3 {
+		@include fontSize(18px);
+	}
+}
+
+p {
+	margin: 0;
+	line-height: 24px;
+	font-family: $font;
+	font-size: inherit;
+	letter-spacing: $letter-space-default;
+	font-weight: 100;
+	color: $base-color;
+}
+
+.reference {
+	@extend p;
+	margin: 1.25rem 0 2.5rem 0;
+	padding-right: 5rem;
+}
+
+// generic classes
+.icon-header {
+	display: flex;
+	flex-direction: row;
+	margin-top: 1rem;
+	img {
+		margin-right: 0.75rem;
+	}
+}

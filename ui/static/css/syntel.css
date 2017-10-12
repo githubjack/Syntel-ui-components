@@ -1,0 +1,1358 @@
+/* normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+/* line 12, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 30, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 39, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+/* line 54, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 62, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 71, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 82, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 95, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 105, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 116, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 125, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 136, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 145, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 153, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 162, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 172, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 179, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 183, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 195, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+audio,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 203, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 212, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 220, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * Remove the margin in Firefox and Safari.
+ */
+/* line 235, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 245, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 255, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 268, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 279, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 291, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 302, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 316, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 325, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 335, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 345, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 354, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+/* line 364, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 373, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+/* line 387, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+details,
+menu {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+/* line 395, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+summary {
+  display: list-item;
+}
+
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 406, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+canvas {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in IE.
+ */
+/* line 414, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+template {
+  display: none;
+}
+
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+/* line 425, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/normalise/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* line 20, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/typography/_base.scss */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* line 24, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/typography/_base.scss */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f1f1f1;
+  line-height: 1.5;
+  color: #4a4a4a;
+  font-size: 16px;
+  font-size: 1rem;
+  font-family: Open sans, sans-serif;
+}
+
+/* line 36, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/typography/_base.scss */
+h1,
+h2,
+h3 {
+  margin: 0;
+  letter-spacing: 1px;
+  color: #4a4a4a;
+}
+
+/* line 42, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/typography/_base.scss */
+h1 {
+  line-height: 2.25rem;
+  margin-top: 0.75rem;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 48, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/typography/_base.scss */
+  h1 {
+    font-size: 26px;
+    font-size: 1.625rem;
+  }
+
+  /* line 51, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/typography/_base.scss */
+  h3 {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+@media screen and (min-width: 999px) {
+  /* line 57, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/typography/_base.scss */
+  h1 {
+    font-size: 29px;
+    font-size: 1.8125rem;
+  }
+
+  /* line 60, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/typography/_base.scss */
+  h3 {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 66, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/typography/_base.scss */
+  h1 {
+    font-size: 37px;
+    font-size: 2.3125rem;
+    line-height: 100%;
+  }
+
+  /* line 70, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/typography/_base.scss */
+  h3 {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+/* line 75, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/typography/_base.scss */
+p, .reference {
+  margin: 0;
+  line-height: 24px;
+  font-family: Open sans, sans-serif;
+  font-size: inherit;
+  letter-spacing: 1px;
+  font-weight: 100;
+  color: #4a4a4a;
+}
+
+/* line 85, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/typography/_base.scss */
+.reference {
+  margin: 1.25rem 0 2.5rem 0;
+  padding-right: 5rem;
+}
+
+/* line 92, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/typography/_base.scss */
+.icon-header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+/* line 96, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/typography/_base.scss */
+.icon-header img {
+  margin-right: 0.75rem;
+}
+
+/* line 2, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.nav {
+  padding-top: 60px;
+  padding-left: 20%;
+  width: 80%;
+  border-bottom: 3px solid #E7F7C0;
+}
+
+/* line 9, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #FFFFFF;
+}
+
+/* line 16, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.menu__item-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-top: 1px solid #979797;
+  height: 5rem;
+}
+
+/* line 27, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.menu__item-list__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 2.28571429rem;
+  position: relative;
+  z-index: 10;
+  height: 5rem;
+  border-right: 1px solid #efe9e9;
+  border-top: 1px solid #efe9e9;
+}
+
+/* line 41, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.menu__item-list__item:hover {
+  background: #F8F7F7;
+  border-bottom: 3px solid #9CDD00;
+}
+
+/* line 46, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.menu__item-list__item--extra-info {
+  border-right: none!important;
+}
+
+/* line 52, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.menu__item-list__item__link,
+.menu__item-list__item__link__icon,
+.menu__item-list__item__link__text {
+  display: block;
+}
+
+/* line 56, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.menu__item-list__item__link {
+  font-family: Open sans, sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #9B9B9B;
+}
+
+/* line 64, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.menu__item-list__item__link__icon {
+  margin: 0.71428571rem 0 0 0;
+}
+
+/* line 68, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.menu__item-list__item__link__text {
+  padding-bottom: 3px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 999px) {
+  /* line 73, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+  .nav {
+    padding-left: 10%;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 80, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+  .nav {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 769px) {
+  /* line 87, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+  .menu__item-list {
+    border-top: 0;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  /* line 93, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+  .menu__item-list__item {
+    width: 25%;
+  }
+
+  /* line 96, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+  .menu__item-list__item--extra-info {
+    display: none;
+  }
+
+  /* line 99, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+  .menu__item-list__item__link__text__hidden {
+    display: none;
+  }
+
+  /* line 102, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+  .menu__login-logout {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) {
+  /* line 108, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+  .menu__item-list__item--item-toggle {
+    display: none;
+  }
+
+  /* line 111, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+  .menu__login-logout {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    width: 8rem;
+    background: #FFFFFF;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #00A4B3;
+    color: #00A4B3;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 400;
+    outline: 0;
+    height: 2.85714286rem;
+  }
+}
+/* line 128, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.mobile-menu {
+  overflow: hidden;
+  padding: 0;
+  height: 0;
+  display: none;
+}
+
+/* line 135, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.mobile-menu--open {
+  height: auto;
+  display: block;
+  background: #FFFFFF;
+}
+
+/* line 141, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.mobile-menu__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 147, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.mobile-menu__list__item {
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #efe9e9;
+}
+
+/* line 156, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.mobile-menu__list__item:hover {
+  background: #F8F7F7;
+}
+
+/* line 160, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.mobile-menu__list__item__link {
+  font-family: Open sans, sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #9B9B9B;
+}
+
+/* line 169, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.mobile-menu__list__item__link__icon,
+.mobile-menu__list__item__link__text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/* line 175, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+.mobile-menu__list__item__link__icon {
+  width: 1.42857143rem;
+}
+
+@media screen and (min-width: 769px) {
+  /* line 180, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_nav.scss */
+  .mobile-menu {
+    display: none;
+  }
+}
+/* line 6, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 11, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card {
+  height: 98px;
+  display: flex;
+  position: relative;
+  margin: 15px 0;
+}
+
+/* line 18, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card--q-card {
+  height: auto;
+}
+
+/* line 22, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-outline {
+  width: 100%;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #57595E;
+}
+
+/* line 30, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-outline--primary-outline {
+  border-color: #7F5BFF;
+}
+
+/* line 34, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-outline--qlink-outline {
+  border-color: #E30088;
+  min-height: 174px;
+  font-family: Open sans, sans-serif;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 100%;
+  color: #333333;
+}
+
+/* line 43, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background: #FFFFFF;
+}
+
+/* line 52, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel--inverse {
+  background: #7F5BFF;
+  color: #FFFFFF;
+}
+
+/* line 57, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__content-panel {
+  display: flex;
+  align-items: center;
+  font-family: Open sans, sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* line 65, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__content-panel--acct-info {
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+/* line 70, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__content-panel--acct-info h2 {
+  color: #4a4a4a;
+  margin: 0;
+  padding-left: 1.25rem;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+/* line 78, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__content-panel--qlinks {
+  height: auto!important;
+  padding: 1.25rem;
+}
+
+/* line 83, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__content-panel p, .card__card-panel__content-panel .reference {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+/* line 88, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__content-panel__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+}
+
+/* line 97, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__content-panel__list__item {
+  margin-bottom: 1.125rem;
+}
+
+/* line 101, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__content-panel__list__item__link {
+  text-decoration: none;
+  color: #333333;
+  font-weight: 100;
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-family: Open sans, sans-serif;
+}
+
+/* line 109, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__content-panel--neutral-node {
+  color: #57595E;
+}
+
+/* line 113, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__content-panel--primary-mode {
+  background: #FFFFFF;
+  color: #7F5BFF;
+}
+
+/* line 118, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__content-panel--select {
+  width: 100%;
+  background: #7F5BFF;
+}
+
+/* line 123, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__content-panel--contrast {
+  color: #FFFFFF;
+}
+
+/* line 127, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__sidebar-left-panel {
+  left: 0;
+  width: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 135, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__sidebar-left-panel--neutral-mode {
+  background-color: #57595E;
+  color: #ffffff;
+}
+
+/* line 140, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__sidebar-left-panel--primary-mode {
+  background: #7F5BFF;
+  color: #FFFFFF;
+}
+
+/* line 145, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__sidebar-left-panel--canvas-mode {
+  background: #FFFFFF;
+  color: #7F5BFF;
+}
+
+/* line 150, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__sidebar-right-panel {
+  position: absolute;
+  right: 0;
+  width: 3.5rem;
+  height: 5.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 160, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__sidebar-right-panel--neutral-mode {
+  background-color: #57595E;
+  color: #ffffff;
+}
+
+/* line 165, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__sidebar-right-panel--primary-mode {
+  background: #7F5BFF;
+  color: #FFFFFF;
+}
+
+/* line 170, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__sidebar-right-panel--canvas-mode {
+  background-color: #ffffff;
+  color: #57595E;
+}
+
+/* line 176, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__sidebar-left-panel div,
+.card__card-panel__sidebar-right-panel div {
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* line 188, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__sidebar-left-panel div img,
+.card__card-panel__sidebar-right-panel div img,
+.card__card-panel__header-panel div img {
+  width: 100%;
+}
+
+/* line 192, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__header-panel {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 2.994286rem;
+  padding: 0.85714286rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background: #E30088;
+  color: #FFFFFF;
+}
+
+/* line 205, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.card__card-panel__header-panel h3 {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-family: Open sans, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  margin: -5px 0 0 10px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 999px) {
+  /* line 216, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .content-container {
+    width: auto;
+    height: auto;
+  }
+
+  /* line 220, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .card {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 999px) {
+  /* line 226, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  /* line 231, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .card {
+    width: 30%;
+    margin-right: 1rem;
+    height: 90px;
+    display: inline-block;
+  }
+
+  /* line 237, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .card__card-panel__content-panel--acct-info h2 {
+    font-size: 1.125rem;
+    font-weight: 100;
+  }
+
+  /* line 241, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .card__card-panel__content-panel .amount {
+    font-weight: 100!important;
+  }
+
+  /* line 244, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .card__card-panel__content-panel p:last-child, .card__card-panel__content-panel .reference:last-child {
+    font-weight: bold;
+  }
+
+  /* line 247, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .card__card-panel__sidebar-left-panel {
+    height: 86px;
+  }
+
+  /* line 250, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .card__card-panel__content-panel {
+    height: 86px;
+  }
+
+  /* line 253, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .card--q-card {
+    height: auto;
+    width: 100%;
+  }
+
+  /* line 257, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .card--payment-from:nth-child(2) .card--payment-from:nth-child(3) {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 999px) {
+  /* line 263, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .card--q-card {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 999px) {
+  /* line 269, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .card__card-panel__content-panel--acct-info h2 {
+    font-size: 18px;
+    font-size: 1.125rem;
+  }
+}
+@media screen and (max-width: 999px) {
+  /* line 275, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .card__card-panel__sidebar-left-panel {
+    height: 94px;
+  }
+
+  /* line 278, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .card__card-panel__content-panel {
+    height: 94px;
+  }
+}
+/* line 284, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.quick-links {
+  display: block;
+}
+
+/* line 288, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #ffffff;
+  z-index: 50;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+/* line 299, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.acct-list {
+  width: 45%;
+  height: auto;
+  padding: 0;
+  list-style: none;
+  background: #FFFFFF;
+  padding: 5px;
+  margin-left: 3px;
+}
+
+/* line 309, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.acct-list__item {
+  width: 90%;
+  height: auto;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  margin: 0 auto;
+}
+
+/* line 319, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.acct-list__item--active {
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #7F5BFF;
+}
+
+/* line 326, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.acct-list__item__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 332, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.acct-list__item__row__title {
+  margin-bottom: 1.25rem;
+  font-family: Open sans, sans-serif;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #333333;
+}
+
+/* line 341, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.acct-list__item__row__crud {
+  text-align: right;
+}
+
+/* line 345, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.acct-list__item__row__crud__link {
+  line-height: 1.42857143rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: #00A4B3;
+}
+
+/* line 353, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.acct-list__item__row__details,
+.acct-list__item__row__balance {
+  width: 100%;
+  margin-bottom: 0.45rem;
+}
+
+/* line 360, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.acct-list__item__row__balance__value,
+.acct-list__item__row__details__items,
+.acct-list__item__row__title {
+  color: #4a4a4a;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.71428571rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 370, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.acct-list__item__row__title {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 375, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .acct-list {
+    z-index: 50;
+    position: relative;
+    margin-top: -270px;
+    width: 98%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 999px) {
+  /* line 384, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .acct-list {
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  /* line 390, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .acct-list {
+    z-index: 50;
+    position: relative;
+    margin-top: -15px;
+  }
+}
+@media screen and (min-width: 769px) {
+  /* line 398, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .quick-links {
+    float: right;
+    width: 40%;
+  }
+}
+/* line 405, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.user-form {
+  display: block;
+}
+
+/* line 409, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.money-field {
+  height: 45px;
+  width: 100%;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #aaaaaa;
+  background: #ffffff;
+  outline: 0;
+}
+
+/* line 420, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.date-field {
+  width: 140px;
+  height: 3.42857143rem;
+  padding: 0 0.71428571rem;
+  border-radius: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #aaaaaa;
+  font-size: 16px;
+  font-size: 1rem;
+  color: #4a4a4a;
+  font-family: Open sans, sans-serif;
+  background-image: url(../img/icon-calendar.png);
+  background-position: 90% 50%;
+  background-repeat: no-repeat;
+}
+
+/* line 436, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.format-date {
+  font-size: 1rem;
+  color: #aaaaaa;
+}
+
+/* line 441, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.button-cta {
+  border-radius: 5px;
+  margin: 0.71428571rem 0;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 100;
+  outline: 0;
+  cursor: pointer;
+}
+
+/* line 450, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.payment {
+  width: 16.85714286rem;
+  height: 3.42857143rem;
+}
+
+/* line 456, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.one-off-payment,
+.btn-primary {
+  padding: 0 1.07142857rem;
+  height: 3.42857143rem;
+  background: #7F5BFF;
+  color: #FFFFFF;
+  border: 0;
+}
+
+/* line 463, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.one-off-payment {
+  background-image: url(../img/one-off-payment.png);
+  background-position: 15px 15px;
+  background-repeat: no-repeat;
+}
+
+/* line 469, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+.repeat-payment {
+  background: #FFFFFF;
+  background-image: url(../img/repeating-payment.png);
+  background-position: 12px 12px;
+  background-repeat: no-repeat;
+  color: #AAAAAA;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #AAAAAA;
+}
+
+@media screen and (min-width: 769px) {
+  /* line 481, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .user-form {
+    float: left;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 999px) {
+  /* line 488, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .user-form {
+    float: left;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 999px) {
+  /* line 495, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .money-field {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 769px) {
+  /* line 501, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .button-cta {
+    margin-right: 0.5rem;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  /* line 507, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .money-field {
+    height: 2.5rem;
+    width: 91%;
+    padding: 3%;
+    margin: 1.07142857rem 0;
+  }
+
+  /* line 513, /Users/soul-box/Creative Cloud Files/xd/syntel/ui/assets/scss/core-blocks/_main.scss */
+  .one-off-payment {
+    display: block;
+  }
+}

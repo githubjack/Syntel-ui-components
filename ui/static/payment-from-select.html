@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta content="width=device-width, initial-scale=1.0" name="viewport">
+		<title>
+			Syntel Payment from Select
+		</title>
+		<meta content="Syntel" name="description">
+		<meta content="Syntel patterns" name="author">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="css/syntel.css" rel="stylesheet"><!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+		</script>
+	</head>
+	<body>
+		<nav class="nav" role="navigation">
+			<div class="menu">
+				<ul class="menu__item-list">
+					<li class="menu__item-list__item">
+						<a class="menu__item-list__item__link" href=""><span class="menu__item-list__item__link__icon"><img alt="user" src="img/user.png"></span> <span class="menu__item-list__item__link__text">Home</span></a>
+					</li>
+
+					<li class="menu__item-list__item">
+						<a class="menu__item-list__item__link" href=""><span class="menu__item-list__item__link__icon"><img alt="money" src="img/icon__money.png"></span> <span class="menu__item-list__item__link__text"><span class="menu__item-list__item__link__text__hidden">Move</span> Money</span></a>
+					</li>
+
+					<li class="menu__item-list__item">
+						<a class="menu__item-list__item__link" href=""><span class="menu__item-list__item__link__icon"><img alt="bar chart" src="img/icon__bar-chart.png"></span> <span class="menu__item-list__item__link__text">Spending</span></a>
+					</li>
+
+					<li class="menu__item-list__item menu__item-list__item--item-toggle">
+						<a class="menu__item-list__item__link" href=""><span class="menu__item-list__item__link__icon"><img alt="more" src="img/menu.png"></span> <span class="menu__item-list__item__link__text">More</span></a>
+					</li>
+
+					<li class="menu__item-list__item menu__item-list__item--extra-info">
+						<a class="menu__item-list__item__link" href=""><span class="menu__item-list__item__link__icon"><img alt="products" src="img/icon__products.png"></span> <span class="menu__item-list__item__link__text">Products</span></a>
+					</li>
+
+					<li class="menu__item-list__item menu__item-list__item--extra-info">
+						<a class="menu__item-list__item__link" href=""><span class="menu__item-list__item__link__icon"><img alt="help" src="img/icon__help.png"></span> <span class="menu__item-list__item__link__text">Help</span></a>
+					</li>
+				</ul>
+				<button class="menu__login-logout">Logout</button>
+			</div>
+
+			<div class="mobile-menu">
+				<ul class="mobile-menu__list">
+					<li class="mobile-menu__list__item">
+						<a class="mobile-menu__list__item__link" href=""><span class="mobile-menu__list__item__link__icon"><img alt="Products" src="img/icon__products.png"></span> <span class="mobile-menu__list__item__link__text">Products</span></a>
+					</li>
+
+					<li class="mobile-menu__list__item">
+						<a class="mobile-menu__list__item__link" href=""><span class="mobile-menu__list__item__link__icon"><img alt="Help" src="img/icon__help.png"></span> <span class="mobile-menu__list__item__link__text">Help</span></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- /nav -->
+		<!-- headers -->
+
+		<header role="heading">
+			<div class="icon-header">
+				<img alt="" height="25" src="img/icon__money_active.png" width="32">
+				<h1>
+					Move Money
+				</h1>
+			</div>
+
+			<div>
+				<p class="reference">
+					Pay a bill, a person, an organisation or transfer money
+				</p>
+			</div>
+		</header>
+		<!-- /headers -->
+		<!-- main -->
+
+		<section class="user-form" role="form">
+			<form id="payment" name="payments">
+				<div class="content-container">
+					<div class="card card--payment-from">
+						<div class="card__card-outline card__card-outline--primary-outline">
+							<div class="card__card-panel">
+								<div class="card__card-panel__sidebar-left-panel card__card-panel__sidebar-left-panel--primary-mode">
+									<div>
+										<img alt="plus sign" id="show-more" src="img/white-plus.png">
+									</div>
+								</div>
+
+								<div class="card__card-panel__content-panel card__card-panel__content-panel--select">
+									<p class="card__card-panel__content-panel--contrast">
+										From
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card card--payment-from">
+						<div class="card__card-outline card__card-outline--neutral-outline">
+							<div class="card__card-panel">
+								<div class="card__card-panel__sidebar-left-panel card__card-panel__sidebar-left-panel--canvas-mode">
+									<div>
+										<a href=""><img alt="plus sign" src="img/neutral-plus.png"></a>
+									</div>
+								</div>
+
+								<div class="card__card-panel__content-panel card__card-panel__content-panel--neutral-mode">
+									<p class="amount">
+										To
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="card card--payment-from">
+						<div class="card__card-outline card__card-outline--neutral-outline">
+							<div class="card__card-panel">
+								<div class="card__card-panel__sidebar-left-panel card__card-panel__sidebar-left-panel--neutral-mode">
+									<div>
+										&pound;
+									</div>
+								</div>
+
+								<div class="card__card-panel__content-panel card__card-panel__content-panel--neutral-mode">
+									<p class="amount">
+										Amount
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<ul class="acct-list" id="acct-list">
+					<li style="list-style: none; display: inline">
+						<div class="arrow-up">
+						</div>
+					</li>
+
+					<li class="acct-list__item">
+						<div class="acct-list__item__row">
+							<h3 class="acct-list__item__row__title">
+								B Current Account
+							</h3>
+
+							<div class="acct-list__item__row__crud">
+								<a class="acct-list__item__row__crud__link" href="">Edit</a> <a class="acct-list__item__row__crud__link" href="">Delete</a>
+							</div>
+						</div>
+
+						<div class="acct-list__item__row">
+							<div class="acct-list__item__row__details">
+								<div class="acct-list__item__row__details__items">
+									<div>
+										Bobs account
+									</div>
+
+									<div>
+										80-65-78 | 575635623
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="acct-list__item__row">
+							<div class="acct-list__item__row__balance">
+								<div class="acct-list__item__row__balance__value">
+									<div class="acct-list__item__row__balance__value__cur-bal">
+										&pound;10,550586
+									</div>
+
+									<div class="acct-list__item__row__balance__value__available-bal">
+										&pound;1000 Available
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li class="acct-list__item acct-list__item--active">
+						<div class="acct-list__item__row">
+							<h3 class="acct-list__item__row__title">
+								B Current Account
+							</h3>
+
+							<div class="acct-list__item__row__crud">
+								<a class="acct-list__item__row__crud__link" href="">Edit</a> <a class="acct-list__item__row__crud__link" href="">Delete</a>
+							</div>
+						</div>
+
+						<div class="acct-list__item__row">
+							<div class="acct-list__item__row__details">
+								<div class="acct-list__item__row__details__items">
+									<div>
+										Bobs account
+									</div>
+
+									<div>
+										80-65-78 | 575635623
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="acct-list__item__row">
+							<div class="acct-list__item__row__balance">
+								<div class="acct-list__item__row__balance__value">
+									<div class="acct-list__item__row__balance__value__cur-bal">
+										&pound;10,550586
+									</div>
+
+									<div class="acct-list__item__row__balance__value__available-bal">
+										&pound;1000 Available
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+
+					<li class="acct-list__item">
+						<div class="acct-list__item__row">
+							<h3 class="acct-list__item__row__title">
+								B Current Account
+							</h3>
+
+							<div class="acct-list__item__row__crud">
+								<a class="acct-list__item__row__crud__link" href="">Edit</a> <a class="acct-list__item__row__crud__link" href="">Delete</a>
+							</div>
+						</div>
+
+						<div class="acct-list__item__row">
+							<div class="acct-list__item__row__details">
+								<div class="acct-list__item__row__details__items">
+									<div>
+										Bobs account
+									</div>
+
+									<div>
+										80-65-78 | 575635623
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="acct-list__item__row">
+							<div class="acct-list__item__row__balance">
+								<div class="acct-list__item__row__balance__value">
+									<div class="acct-list__item__row__balance__value__cur-bal">
+										&pound;10,550586
+									</div>
+
+									<div class="acct-list__item__row__balance__value__available-bal">
+										&pound;1000 Available
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+
+				<h2>
+					Reference
+				</h2>
+
+				<p class="reference">
+					A note to help you remember why you moved this money. This will appear in your transactions list and statement.
+				</p>
+				<input class="money-field" type="text">
+				<h2>
+					I want this payment to be ...
+				</h2>
+
+				<p class="reference">
+					A repeating payment is also known as a Standing Order.
+				</p>
+				<button class="button-cta payment one-off-payment">A one off payment</button> <button class="button-cta payment repeat-payment">A repeating payment</button>
+				<h2>
+					Use the date picker to select when you want this to happen. Alternatively, enter it in the format DD/MM/YYYY.
+				</h2>
+
+				<p class="reference">
+					A repeating payment is also known as a Standing Order.
+				</p>
+				<input class="date-field" type="date">
+				<p class="format-date">
+					(DD/MM/YYYY)
+				</p>
+				<button class="button-cta btn-primary">Continue</button>
+			</form>
+		</section>
+
+		<aside class="quick-links" role="complementary">
+			<div class="card card--q-card">
+				<div class="card__card-outline card__card-outline--qlink-outline">
+					<div class="card__card-panel">
+						<div class="card__card-panel__header-panel card__card-panel__header-panel">
+							<img alt="quick links" src="img/q-link.png">
+							<h3>
+								<span>Quick links</span>
+							</h3>
+						</div>
+					</div>
+
+					<div class="card__card-panel__content-panel card__card-panel__content-panel--qlinks">
+						<ul class="card__card-panel__content-panel__list">
+							<li class="card__card-panel__content-panel__list__item">
+								<a class="card__card-panel__content-panel__list__item__link" href="">Direct Debit and Standing Orders</a>
+							</li>
+
+							<li class="card__card-panel__content-panel__list__item">
+								<a class="card__card-panel__content-panel__list__item__link" href="">Alerts and sweeps</a>
+							</li>
+
+							<li class="card__card-panel__content-panel__list__item">
+								<a class="card__card-panel__content-panel__list__item__link" href="">Statements</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</aside>
+		<!-- / main -->
+		<script src="js/functions.js"></script>
+	</body>
+</html>
